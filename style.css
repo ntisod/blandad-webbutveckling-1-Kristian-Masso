@@ -1,16 +1,156 @@
 body {
 
-    background-image: url('https://lh3.googleusercontent.com/-rinlxP9NZiG8sGNHTOXD_jUQVvH-zpdxN7b6POreIwl-Qcmry24aOyFoE3v2ynt1ECpuA=s151') ;
-    color: white;
+    background: linear-gradient(to bottom right, white, #55bbf2);
+    text-align: center;
+    margin: 0px;
 
 }
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+section {
+
+  color: white;
+  text-align: center;
+  padding-left: 23%;
+  padding-top: 5%;
+  padding-bottom: 9%;
+  padding-right: 23%;
+  border-style: solid;
+  border-color: white;
+
+}
+
+nav {
+
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+ 
+}
+
+article {
+
+  color: white;
+  text-shadow: 0px 4px 8px black;
+  text-align: left;
+  padding-left: 38.5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-style: solid;
+  border-color: white;
+
+}
+
+img {
+
+  border-style: solid;
+  border-color: white;
+
+}
+
+p2 {
+
+  text-align: right;
+
+}
+
+p {
+
+  text-shadow: 0px 4px 8px black;
+  max-width: 18cm;
+
+}
+
+h2 {
+
+  color: white;
+  text-shadow: 0px 4px 8px black;
+  max-width: 18cm;
+
+}
+
+h1 {
+    color: white;
+    text-shadow: 0px 4px 8px black;
+}
+
 footer {
     
-    padding: 10px;
     width: auto;
     text-align: right;
-    background-color: white;
-    color: black;
-
+    color: white;
+    text-shadow: 0px 4px 8px black;
+    max-width: 100%;
+    padding-top: 2%;
+    padding-right: 5px;
+  
 }
 
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    background: linear-gradient(to bottom right, #e02204, #fcf33d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+    text-shadow: 0px 4px 8px black;
+
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
