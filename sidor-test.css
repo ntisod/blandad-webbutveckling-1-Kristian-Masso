@@ -1,0 +1,65 @@
+body {
+
+    background-color: #111112;
+    color: #f7f9fb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-stretch: wider;
+
+}
+
+header {
+
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+
+}
+
+div {
+
+    background-color: transparent;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+
+}
+
+section {
+
+    text-align: center;
+
+}
+
+footer {
+
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}
+
+
+
+nav{
+
+    text-align: center;
+
+}
+  
+
+a:link, a:visited {
+    background-color: transparent;
+    color: #f7f9fb;
+    border: 2px solid #f7f9fb;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: transparent;
+    color: #f7f9fb;
+  }

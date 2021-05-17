@@ -1,66 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kristians Index Sida</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <header class="col-12" class="row">
-        <h1>Min Index Sida</h1>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
 
-    <div class="row">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <nav class="col-3 col-s-3 ">
+        <title>Kristian Masso</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Kristian <span class="home__title-color">Masso</span></a>
+                </div>
 
-            <h2>Mina Sidor</h2>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Favorite Games</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi<br>I'm <span class="home__title-color">Kristian</span><br> Student at NTI</h1>
 
-            <p><a class="btn" href="gym-sida.html" >Min gym hemsida</a></p>
+                    <a href="mina-sidor-test.html" class="button">Hire me</a>
+                </div>
 
+                <div class="home__social">
+                    <a href="https://open.spotify.com/user/eok9eskgq6vzrfgc2445j5v0w?si=e8895cbd5aa54144" class="home__social-icon" target="_blank"><i class='bx bxl-spotify'></i></a>
+                    <a href="https://twitter.com/KristianMasso" class="home__social-icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.instagram.com/kristianmasso/" class="home__social-icon" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
 
-            <a class="btn" href="om-mig.html" >Information om mig</a>
+                <div class="home__img">    
+                    <img src="bild-mig.png" alt="picture of me">
+                </div>
+            </section>
 
-        </nav>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
 
-        <main class="col-6 col-s-9">
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="bild-mig.png" alt="picture of me">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I’m Kristian</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>                                   
+                </div>
+            </section>
 
-            <h2>Info</h2>
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
 
-            <p>Tjena!</p>
-            
-            <p> På denna webbplats har du tillgång till att besöka alla min sidor jag skapat genom att trycka på en av länkarna under rubriken "Mina Sidor". </p>   
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
 
-            <p>Jag håller jut nu på med ett flertal spännande projekt och de är på ingång.</p>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">93%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">4%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="code.jpg" alt="Bild på en massa koder" class="skills__img">
+                    </div>
+                </div>
+            </section>
 
-            <p>Så fort jag blir klar med sidorna så kommer jag lägga upp dem här</p>
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Favorite Games</h2>
 
-            <p>så glöm ej hålla dig uppdaterad</p>
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                            <img src="rocket.jpg" alt="Rocket league">
+                            <div class="overlay">
+                            <a class="i_bild" href="https://www.rocketleague.com/" target="_blank">Rocket League (Fair Use)
+                                Source: Psyonix Studios</a></div>
+                            </a>
+                    </div>
+                    <div class="work__img">
+                            <img src="csgo.png" alt="Cs:go"></a>
+                            <div class="overlay">
+                                <a class="i_bild" href="https://blog.counter-strike.net/" target="_blank">Counter Strike Global Offensive (Fair Use)
+                                    Source: Valve Studios</a></div>
+                                </a>
+                    </div>
+                    <div class="work__img">
+                            <img src="gta.jpg" alt="Gta 5"></a>
+                            <div class="overlay">
+                                <a class="i_bild" href="https://www.rockstargames.com/games/V" target="_blank">Gta V (Fair Use)
+                                    Source: Rockstar Games</a></div>
+                                </a>
+                    </div>
+                    <div class="work__img">
+                            <img src="league.jpg" alt="League of Legends"></a>
+                            <div class="overlay">
+                                <a class="i_bild" href="https://na.leagueoflegends.com/en-us/" target="_blank">League of Legends (Fair Use)
+                                    Source: Riot Games</a></div>
+                                </a>
+                    </div>
+                    <div class="work__img">
+                            <img src="fifa.jpg" alt="Fifa 21"></a>
+                            <div class="overlay">
+                                <a class="i_bild" href="https://www.ea.com/sv-se/games/fifa/fifa-21" target="_blank">Fifa 21 (Fair Use)
+                                    Source: EA</a></div>
+                                </a>
+                    </div>
+                    <div class="work__img">
+                            <img src="minecraft.jpg" alt="Minecraft"></a>
+                            <div class="overlay">
+                                <a class="i_bild" href="https://www.minecraft.net/sv-se" target="_blank">Minecraft (Fair Use)
+                                    Source: Minecraft</a></div>
+                                </a>
+                    </div>
+                </div>
+            </section>
 
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-form">
+                  <form id="contact-form" method="POST" action="form-handler.php">
+                  <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                  <br>
+                  <input name="email" type="text" class="form-control" placeholder="Your Mail" required>
+                  <br>
+                  <textarea name="message" class="form-control" placeholder="Your message" rows="4" required></textarea>
+                  <br>
+                  <input type="submit" class="form-control submit" value="Submit!">
+              </form>
+              </div>
+            </section>
         </main>
 
-        <aside class="col-3 col-s-12">
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p>&#169; KristianMasso 2021. COPYRIGHT</p>
+        </footer>
 
-            <h2>Reklam</h2>
 
-            <p>Sponsrad av Lidl </p>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-            <br>
-
-            <img src= "lidl.jpg" alt="Bild på Lidl" height="99.7" width="100">
-
-        </aside>
-
-    </div>
-
-    <footer class="col-12">
-
-        Copyright (c) 2020, Kristian Masso <a href="https://www.ntigymnasiet.se/sodertalje/" target="_blank"> NTI gymnasiet Södertälje</a>
-
-    </footer>
-
-</body>
-
+        <!--===== MAIN JS =====-->
+        <script src="java.js"></script>
+    </body>
 </html>
